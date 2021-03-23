@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NewDeplog';
+
+  work(){
+    alert('New commit works');
+  }
 }
